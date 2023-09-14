@@ -63,8 +63,8 @@ def scrap_names(driver):
     loc_length = len(location_links)
 
     for ind_location, location in enumerate(location_links):
-        if ind_location < 42:
-            continue
+        # if ind_location < 42:
+        #     continue
         ind_loc = ind_location + 1
         driver.get(location[0])
         
